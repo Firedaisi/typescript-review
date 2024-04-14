@@ -4,8 +4,13 @@
   "description": "ism 210 workk",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Oludaisi Opeyemi",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.12.5",
+    "typescript": "^5.4.4"
+  }
 }
